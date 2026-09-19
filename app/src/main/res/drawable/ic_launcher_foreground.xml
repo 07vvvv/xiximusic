@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  图标前景：紫色渐变底上的音符 + 微笑弧线（“嘻嘻”）。
+  纯 vector，无位图资源，保证 APK 体积。
+  108x108 视口，图形限制在中心 72x72 安全区内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 圆形底衬 -->
+    <path
+        android:fillColor="#FF5B2EE0"
+        android:pathData="M54,20a34,34 0 1,0 0.1,0z" />
+
+    <!-- 高光弧 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,44 A28,28 0 0,1 78,44"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- 音符符头（左） -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M43.5,70.5m-7.5,0a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0" />
+
+    <!-- 音符符干 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M49,70.5 L49,39 L53.5,39 L53.5,70.5 Z" />
+
+    <!-- 音符旗 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M53.5,39 L53.5,46.5 C58,45 64,44.5 69,46.5 L69,53 C63.5,50.5 57.5,51 53.5,53 Z" />
+
+    <!-- 微笑弧线：嘻嘻 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,80 C47,85 61,85 66,80"
+        android:strokeColor="#FFFFD166"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round" />
+</vector>
