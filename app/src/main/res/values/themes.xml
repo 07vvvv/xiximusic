@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      Android 15（API 35）适配：
+      - targetSdk 35 后系统强制 edge-to-edge，windowOptOutEdgeToEdgeEnforcement 在 API 36 会被忽略，
+        因此这里从主题层面也保持透明状态栏/导航栏，实际内边距由 Compose WindowInsets 处理。
+      - windowLightStatusBar 仅为启动瞬间的兜底，运行时由 WindowInsetsControllerCompat 动态设置。
+    -->
+    <style name="Theme.XixiMusic" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+    </style>
+</resources>

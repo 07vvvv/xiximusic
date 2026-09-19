@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">嘻嘻音乐</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_home">首页</string>
+    <string name="tab_login">登录</string>
+    <string name="tab_player">播放</string>
+
+    <!-- 首页 -->
+    <string name="search_hint">搜索歌曲、歌手</string>
+    <string name="home_recommend">每日推荐</string>
+    <string name="home_search_result">搜索结果</string>
+    <string name="action_search">搜索</string>
+    <string name="action_load_more">加载更多</string>
+    <string name="action_retry">重试</string>
+    <string name="loading">加载中…</string>
+    <string name="empty_result">没有找到相关歌曲</string>
+    <string name="no_more">没有更多了</string>
+    <string name="vip_tag">VIP</string>
+
+    <!-- 登录 -->
+    <string name="login_title">QQ 音乐扫码登录</string>
+    <string name="login_tip">使用 QQ 音乐手机客户端扫码，登录后可播放 VIP 歌曲</string>
+    <string name="login_waiting">等待扫码…</string>
+    <string name="login_scanned">已扫码，请在手机上确认</string>
+    <string name="login_confirmed">登录成功</string>
+    <string name="login_expired">二维码已过期</string>
+    <string name="login_refused">已拒绝登录</string>
+    <string name="login_refresh_qr">刷新二维码</string>
+    <string name="login_manual">手动粘贴 Cookie</string>
+    <string name="login_manual_hint">粘贴完整 Cookie 字符串</string>
+    <string name="login_manual_save">保存 Cookie</string>
+    <string name="login_logout">退出登录</string>
+    <string name="login_not_logged">未登录</string>
+    <string name="login_logged_as">已登录：%1$s</string>
+    <string name="login_guest_tip">未登录也可以播放非 VIP 歌曲</string>
+
+    <!-- 播放页 -->
+    <string name="player_no_song">还没有正在播放的歌曲</string>
+    <string name="player_unknown_song">未知歌曲</string>
+    <string name="player_unknown_artist">未知歌手</string>
+    <string name="player_lyric_loading">歌词加载中…</string>
+    <string name="player_lyric_empty">暂无歌词</string>
+    <string name="player_mode_sequence">顺序播放</string>
+    <string name="player_mode_loop_all">列表循环</string>
+    <string name="player_mode_loop_one">单曲循环</string>
+    <string name="player_mode_shuffle">随机播放</string>
+    <string name="player_state_buffering">缓冲中…</string>
+    <string name="player_state_playing">正在播放</string>
+    <string name="player_state_paused">已暂停</string>
+    <string name="player_state_error">播放失败</string>
+
+    <!-- 播放控制无障碍描述 -->
+    <string name="desc_play">播放</string>
+    <string name="desc_pause">暂停</string>
+    <string name="desc_prev">上一首</string>
+    <string name="desc_next">下一首</string>
+    <string name="desc_cover">专辑封面</string>
+
+    <!-- 提示 -->
+    <string name="toast_vip_need_login">该歌曲需要 VIP，请先扫码登录</string>
+    <string name="toast_play_failed">该歌曲无法播放，已自动跳过</string>
+    <string name="toast_network_error">网络请求失败，请检查服务端是否已启动</string>
+    <string name="toast_cookie_saved">Cookie 已保存</string>
+    <string name="toast_cookie_empty">Cookie 不能为空</string>
+    <string name="toast_logged_out">已退出登录</string>
+    <string name="toast_battery_tip">建议将「嘻嘻音乐」加入电池优化白名单，避免后台播放被系统中断</string>
+    <string name="toast_notification_denied">未授予通知权限，播放时通知栏控制将不可用</string>
+    <string name="action_battery_settings">去设置</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_name">音乐播放</string>
+    <string name="notification_channel_desc">显示当前播放的歌曲与控制按钮</string>
+</resources>

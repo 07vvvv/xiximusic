@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  上一首图标（对应 Material 设计的 skip_previous）。
+  自绘 vector：skip_previous 属于 material-icons-extended，本项目禁止引入该依赖。
+  Path 由官方 12x12 viewBox 的 skip_next 水平镜像后按 2 倍缩放得到：
+    M6,18 L14.5,12 L6,6 Z  以及竖条 M4,6 L6,6 L6,18 L4,18 Z
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,6h2v12H6V6zM20,6v12l-8.5,-6L20,6z" />
+</vector>
